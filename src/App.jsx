@@ -2,6 +2,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./screens/Home";
 
+
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/register" element={<h1>📝 Register Page</h1>} />
           <Route path="/dashboard" element={<h1>📊 Dashboard</h1>} />
         </Routes>
+
       </div>
     </div>
   );
